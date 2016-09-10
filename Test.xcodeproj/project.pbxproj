@@ -13,6 +13,7 @@
 		9B1FC1931D82D2B1009E69A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1FC1911D82D2B1009E69A7 /* Main.storyboard */; };
 		9B1FC1951D82D2B1009E69A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1FC1941D82D2B1009E69A7 /* Assets.xcassets */; };
 		9B1FC1981D82D2B1009E69A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1FC1961D82D2B1009E69A7 /* LaunchScreen.storyboard */; };
+		9B9EA2E31D82DF980014D2A1 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9EA2E21D82DF980014D2A1 /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B1FC1941D82D2B1009E69A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1FC1971D82D2B1009E69A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B1FC1991D82D2B1009E69A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9EA2E21D82DF980014D2A1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9EA2E31D82DF980014D2A1 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				9B1FC1871D82D2B1009E69A7 /* Test */,
 				9B1FC1861D82D2B1009E69A7 /* Products */,
+				9B9EA2E11D82DF980014D2A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				9B1FC1891D82D2B1009E69A7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B9EA2E11D82DF980014D2A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9EA2E21D82DF980014D2A1 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +322,7 @@
 				9B1FC19E1D82D2B1009E69A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
